@@ -3,11 +3,13 @@
     box-sizing: border-box;
 }
 
+
 body {
     margin: 0;
     background-color: #4970A2;
     font-family: "Josefin Slab", serif;
 }
+
 
 header {
     background-color: #262849;
@@ -19,6 +21,7 @@ header {
     left: 0;
 }
 
+
 .name-oval {
     background-color: #B2AA8E;
     width: 15rem;
@@ -28,11 +31,13 @@ header {
     font-size: 2rem;
 }
 
+
 .logo {
     width: 100%;
     display: flex;
     flex-direction: column;
 }
+
 
 .logo p {
     margin: 0;
@@ -41,19 +46,23 @@ header {
     justify-content: center;
 }
 
+
 .devin {
     color: white;
     padding-right: 5px;
 }
+
 
 .fa-m {
     rotate: 180deg;
     padding-left: .15rem;
 }
 
+
 .fa-d {
     padding-right: .15rem;
 }
+
 
 .header-links {
     display: flex;
@@ -63,27 +72,33 @@ header {
     font-size: 1.5rem;
 }
 
+
 a {
     text-decoration: none;
     color: white;
 }
 
+
 .header-links a {
     padding-top: .5rem;
 }
+
 
 .header-links a:hover {
     padding-top: 0;
     color: #cac19f;
 }
 
+
 .hamburg {
     display: none;
 }
 
+
 main {
     padding-top: 5rem;
 }
+
 
 .education {
     display: flex;
@@ -93,6 +108,7 @@ main {
     padding-top: 2.5rem;
 }
 
+
 .ed-img {
     color: white;
     display: flex;
@@ -101,12 +117,14 @@ main {
     width: 40%;
 }
 
+
 .ed-img p {
     padding-right: 2rem;
     margin-bottom: 6rem;
     font-size: 1.5rem;
     color: white;
 }
+
 
 .img-ed {
     display: flex;
@@ -117,11 +135,13 @@ main {
     margin-bottom: 2rem;
 }
 
-.img-ed img {
+
+img {
     width: 20rem;
     height: auto;
     padding: 1rem;
 }
+
 
 .ed-text {
     display: flex;
@@ -129,6 +149,7 @@ main {
     height: 50%;
     justify-content: center;
 }
+
 
 .ed-text p {
     background-color: #ECEEED;
@@ -138,13 +159,16 @@ main {
     font-size: 1.25rem;
 }
 
+
 .main-bot {
     display: flex;
 }
 
+
 .music {
     width: 30%;
 }
+
 
 .title-music {
     color: white;
@@ -153,11 +177,24 @@ main {
     text-align: center;
 }
 
+
+.music-img {
+    padding-left: 2rem;
+}
+
+
+.music-img img,
+.sports-img img{
+    background-color: #ECEEED;
+}
+
+
 .music-text {
     width: 100%;
     display: flex;
     justify-content: flex-end;
 }
+
 
 .music-text p {
     width: 70%;
@@ -167,9 +204,21 @@ main {
     font-size: 1.25rem;
 }
 
+
 .sports {
     width: 70%;
 }
+
+
+.sports-img {
+    padding-left: 20rem;
+}
+
+
+.sports-img img {
+    width: 30rem;
+}
+
 
 .title-sports {
     width: 100%;
@@ -181,11 +230,13 @@ main {
     padding-left: 1rem;
 }
 
+
 .sports-text {
     width: 93%;
     display: flex;
     justify-content: flex-end;
 }
+
 
 .sports-text p {
     width: 60%;
@@ -194,6 +245,7 @@ main {
     padding: 1rem;
     font-size: 1.25rem;
 }
+
 
 footer {
     width: 100%;
@@ -207,16 +259,18 @@ footer {
     font-size: 1.5rem;
     padding-left: 1.5rem;
 
+
 }
+
 
 .contact {
     width: 40%;
     display: flex;
-    /* justify-content: space-around; */
     flex-direction: column;
     align-items: center;
     height: 100%;
 }
+
 
 .cont-where,
 .cont-info {
@@ -224,17 +278,20 @@ footer {
     height: 100%;
     align-items: center;
 }
+
 
 .cont-where,
 .cont-info {
     width: 100%;
 }
 
+
 .cont-info p,
 .cont-where p {
     width: 50%;
     margin: 0;
 }
+
 
 .oval-footer {
     background-color: #B2AA8E;
@@ -248,6 +305,7 @@ footer {
     font-size: 2rem;
 }
 
+
 .logo {
     width: 100%;
     height: 100%;
@@ -255,20 +313,41 @@ footer {
     padding: .5rem 0 0 2rem;
 }
 
+
 .socials {
     /* border: 2px solid red; */
     display: flex;
     justify-content: space-evenly;
 }
 
+
 .socials a:hover {
     color: #4970A2;
+}
+
+.hamburg-menu {
+    display: none;
 }
 
 @media (max-width:430px) {
     header {
         display: flex;
         justify-content: space-between;
+    }
+    header,
+    main,
+    footer {
+        /* opacity: 50%; */
+    }
+    .hamburg-menu {
+        display: flex;
+        position: absolute;
+        width: 45%;
+        height: 100%;
+        background-color: #cac19f;
+        top: 0;
+        right: 0;
+        border-radius: 0 0 50px 50px;
     }
     .name-oval {
         width: 40%;
@@ -295,7 +374,7 @@ footer {
         display: none;
     }
     .hamburg {
-        display: block;
+        display: flex;
         font-size: 1.5rem;
         padding-right: 1.5rem;
         color: #B2AA8E;
@@ -303,12 +382,9 @@ footer {
     .education {
         justify-content: center;
         flex-direction: column;
-        margin-bottom: 10rem;
+        margin-bottom: 5rem;
     }
-    .ed-img {
-        padding: 0;
-        margin: 0;
-    }
+    .ed-img,
     .img-ed {
         padding: 0;
         margin: 0;
@@ -318,15 +394,34 @@ footer {
         margin: 0;
         width: 100%;
         padding-left: 1rem;
+        width: 90%;
     }
     .ed-text p {
         padding: 1rem;
-        /* margin: 0; */
         width: 100%;
         font-size: 1rem;
     }
+    .music-img {
+        padding-left: 1rem;
+    }
+    .sports-img {
+        padding: 0;
+        width: 0%;
+    }
+    .music-img img,
+    .sports-img img {
+        width: 15rem;
+    }
+    .sports {
+        margin-top: 20rem;
+        padding-left: 2rem;
+    }
     .sports-text p {
         font-size: 1rem;
+    }
+    .title-sports {
+        padding-left: 4rem;
+        width: 90%;
     }
     .music-text {
         padding-left: .5rem;
@@ -336,7 +431,7 @@ footer {
         font-size: 1rem;
     }
     .main-bot {
-        margin-bottom: 10rem;
+        margin-bottom: 2rem;
     }
     footer {
         font-size: 1rem;
@@ -358,11 +453,14 @@ footer {
         width: 30%;
         font-size: 1.5rem;
         justify-content: flex-end;
-        align-items: flex-start;
+        align-items: flex-end;
         height: 100%;
     }
     .oval-footer p {
         padding: 0;
+        display: flex;
+        justify-content: flex-end;
+        padding-right: .5rem;
     }
     .cont-info,
     .cont-where {
@@ -372,5 +470,6 @@ footer {
     }
     .socials {
         width: 100%;
+        padding-top: .5rem;
     }
 }
