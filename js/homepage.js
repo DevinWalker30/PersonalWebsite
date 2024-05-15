@@ -1,4 +1,17 @@
-const btn = document.querySelector('.fa-solid')
+const hamburgBtn = document.getElementById('bars')
 
+const xBtn = document.getElementById('x')
 
-// addEventListener(btn, => )
+const menu = document.querySelector('.hamburg-menu')
+
+hamburgBtn.addEventListener('click', () => {
+    if (menu.style.display = 'none') {
+        menu.style.display = 'flex'
+    }
+})
+
+xBtn.addEventListener('click', () => {
+    if (menu.style.display = 'flex') {
+        menu.style.display = 'none'
+    }
+})
