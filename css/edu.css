@@ -10,6 +10,9 @@ body {
     font-family: "Josefin Slab", serif;
 }
 
+p {
+    line-height: 1.5rem;
+}
 
 header {
     background-color: #262849;
@@ -94,21 +97,64 @@ a {
     display: none;
 }
 
+main {
+    padding: 3rem 1rem;
+}
 
+.ed-title {
+    font-size: 2.5rem;
+    color: white;
+}
 
+.achievements {
+    display: flex;
+}
 
+.ach-left {
+    display: flex;
+    width: 60%;
+}
 
+.ach-right {
+    display: flex;
+    width: 40%;
+}
 
+.ach-right p,
+.cour-left p,
+.fut-right p {
+    background-color: #ECEEED;
+    font-size: 1.25rem;
+    padding: 1rem;
+}
 
+.courses {
+    display: flex;
+}
 
+.cour-left {
+    display: flex;
+    width: 50%;
+}
 
+.cour-right {
+    display: flex;
+    width: 50%;
+}
 
+.future-courses {
+    display: flex;
+}
 
+.fut-left {
+    display: flex;
+    width: 30%;
+}
 
-
-
-
-
+.fut-right {
+    display: flex;
+    width: 70%;
+}
 
 footer {
     width: 100%;
