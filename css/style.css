@@ -423,37 +423,32 @@ footer {
         width: 100%;
         font-size: 1rem;
     }
-    .music-img {
-        padding-left: 1rem;
+    .music {
+        width: 100%;
     }
-    .sports-img {
-        padding: 0;
-        width: 0%;
-    }
-    .music-img img,
-    .sports-img img {
-        width: 15rem;
-    }
-    .sports {
-        margin-top: 20rem;
-        padding-left: 2rem;
-    }
-    .sports-text p {
-        font-size: 1rem;
-    }
-    .title-sports {
-        padding-left: 4rem;
-        width: 90%;
+    .music-img img {
+        padding: 1rem;
     }
     .music-text {
-        padding-left: .5rem;
+        justify-content: center;
     }
-    .music-text p {
+    .sports {
         width: 100%;
-        font-size: 1rem;
+    }
+    .sports-img {
+        justify-content: center;
+        padding: 0 0 0 1rem;
+        margin: 0;
+    }
+    .sports-img img {
+        width: 25rem;
+    }
+    .sports-text {
+        justify-self: center;
     }
     .main-bot {
         margin-bottom: 2rem;
+        flex-direction: column;
     }
     footer {
         font-size: 1rem;

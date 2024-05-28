@@ -121,6 +121,11 @@ main {
     justify-content: space-around;
 }
 
+img {
+    width: 20rem;
+    height: auto;
+}
+
 footer {
     width: 100%;
     height: 5rem;
