@@ -124,6 +124,15 @@ main {
 img {
     width: 20rem;
     height: auto;
+    padding: 1.5rem;
+}
+
+.top-left {
+    background-color: white;
+}
+
+.bot-img {
+    background-color: white;
 }
 
 footer {

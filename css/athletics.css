@@ -106,12 +106,18 @@ main {
 
 .main-img {
     display: flex;
+    background-color: white;
 }
 
 .main-left,
 .main-mid,
 .main-right {
     max-width: 33%;
+}
+
+.main-left .main-img,
+.main-mid .main-img {
+    width: 65.25%;
 }
 
 .main-text {
@@ -126,6 +132,7 @@ main {
 img {
     width: 25rem;
     height: auto;
+    padding: 1.5rem;
 }
 
 footer {
@@ -195,7 +202,6 @@ footer {
 
 
 .socials {
-    /* border: 2px solid red; */
     display: flex;
     justify-content: space-evenly;
 }
@@ -273,11 +279,6 @@ footer {
     }
     main {
         flex-direction: column;
-    }
-    .main-left,
-    .main-mid,
-    .main-right {
-        max-width: 100%;
     }
     footer {
         font-size: 1rem;
