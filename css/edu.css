@@ -112,7 +112,15 @@ main {
 
 .ach-left {
     display: flex;
+    justify-content: center;
     width: 60%;
+}
+
+img {
+    width: 25rem;
+    height: auto;
+    background-color: white;
+    padding: 1rem;
 }
 
 .ach-right {
@@ -140,6 +148,7 @@ main {
 .cour-right {
     display: flex;
     width: 50%;
+    justify-content: center;
 }
 
 .future-courses {
@@ -149,6 +158,12 @@ main {
 .fut-left {
     display: flex;
     width: 30%;
+    justify-content: center;
+}
+
+.fut-left img {
+    width: 30rem;
+    height: auto;
 }
 
 .fut-right {

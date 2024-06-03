@@ -113,16 +113,18 @@ main {
 .bot-text p {
     background-color: white;
     padding: .5rem;
+    font-size: 1.5rem;
 }
 
 .main-bot {
     display: flex;
     /* border: 2px solid red; */
     justify-content: space-around;
+    margin: 0 2rem;
 }
 
 img {
-    width: 20rem;
+    width: 30rem;
     height: auto;
     padding: 1.5rem;
 }
@@ -131,8 +133,31 @@ img {
     background-color: white;
 }
 
+.top-left img {
+    width: 20rem;
+}
+
+.top-right {
+    width: 50%;
+    font-size: 1.5rem;
+}
+
 .bot-img {
     background-color: white;
+    width: 63%;
+}
+
+.dif1 {
+    width: 81%;
+    margin-right: 1rem;
+}
+
+.dif1-txt {
+    padding-right: 2rem;
+}
+
+.dif2 {
+    width: 100%;
 }
 
 footer {

@@ -107,16 +107,18 @@ main {
 .main-img {
     display: flex;
     background-color: white;
+    justify-content: center;
 }
 
 .main-left,
 .main-mid,
 .main-right {
-    max-width: 33%;
+    width: 33%;
 }
 
 .main-left .main-img,
-.main-mid .main-img {
+.main-mid .main-img,
+.main-right .main-img {
     width: 65.25%;
 }
 
