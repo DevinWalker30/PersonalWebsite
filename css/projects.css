@@ -144,11 +144,11 @@ img {
 
 .bot-img {
     background-color: white;
-    width: 63%;
+    width: 65%;
 }
 
 .dif1 {
-    width: 81%;
+    width: 83%;
     margin-right: 1rem;
 }
 
@@ -157,7 +157,7 @@ img {
 }
 
 .dif2 {
-    width: 100%;
+    width: 93%;
 }
 
 footer {
@@ -302,9 +302,21 @@ footer {
         padding-right: 1.5rem;
         color: #B2AA8E;
     }
+    main {
+        flex-direction: column;
+    }
+    .main-top,
     .main-bot {
         flex-direction: column;
         align-items: center;
+    }
+    .main-top {
+        width: 150%;
+        padding: 0;
+        margin: 0;
+    }
+    img {
+        width: 20rem;
     }
     .bot-text {
         padding-bottom: 2rem;

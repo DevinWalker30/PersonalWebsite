@@ -105,12 +105,12 @@ main {
 .main-top {
     display: flex;
     width: 70%;
-    padding: 1rem;
+    padding: 2rem;
 }
 
 .main-top p,
 .main-bot p {
-    padding: 1rem;
+    padding: 1.5rem;
     background-color: white;
 }
 
@@ -264,6 +264,13 @@ footer {
         font-size: 1.5rem;
         padding-right: 1.5rem;
         color: #B2AA8E;
+    }
+    .main-top,
+    .main-bot {
+        width: 100%;
+    }
+    .main-bot {
+        padding: 0 2rem;
     }
     footer {
         font-size: 1rem;
